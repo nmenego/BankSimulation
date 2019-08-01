@@ -17,10 +17,6 @@ public class Customer {
 		return processingTime;
 	}
 
-	public long getStartTime() {
-		return startTime;
-	}
-
 	public void setEndTime(long endTime) {
 		this.endTime = endTime;
 	}

@@ -5,7 +5,6 @@ public enum CustomerType {
 	RED(2, 2),
 	YELLOW(2, 5);
 
-
 	private double alpha;
 	private double beta;
 
@@ -18,15 +17,8 @@ public enum CustomerType {
 		return alpha;
 	}
 
-	public void setAlpha(double alpha) {
-		this.alpha = alpha;
-	}
-
 	public double getBeta() {
 		return beta;
 	}
 
-	public void setBeta(double beta) {
-		this.beta = beta;
-	}
 }
