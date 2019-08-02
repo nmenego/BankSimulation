@@ -94,7 +94,7 @@ public class BankSimulation {
 		System.out.println();
 		System.out.println("== RESULTS ==");
 		System.out.printf("Running %s customers for time: %s.\n", customerType.name(), timeLimit);
-		System.out.println("Remaining customers in queue: " + customerQueue.size());
+		System.out.printf("Remaining customers in queue: %s \n", customerQueue.size());
 		System.out.printf("Customers Served: %s\n", customersServed.size());
 
 		double totalWaitingTime = getTotalWaitingTime();

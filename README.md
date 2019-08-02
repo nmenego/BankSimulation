@@ -13,6 +13,7 @@ A simulation of a bank with customer queues and tellers.
 1. Support multiple tellers
 1. Support random customer types
 1. Support being able to queue according to a capacity. 
+1. Generate customers list of certain type beforehand to compare results equally 
 
 
 ## Execution
